@@ -41,7 +41,7 @@ export default function PostPage({
     <Layout>
       <SEO
         title={`${frontMatter.title} - ${globalData.name}`}
-        description={frontMatter.description}
+        description={frontMatter.description ? frontMatter.description : ""}
       />
       <Header name={globalData.name} />
       <article className="px-6 md:px-0">
