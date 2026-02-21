@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://seo-ppc-agency.netlify.app/sitemap.xml
